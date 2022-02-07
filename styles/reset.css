@@ -4,27 +4,27 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    font-size:16px;
+  font-size: 16px;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-    display:block;
+  display: block;
 }
 
-a:hover{
-  color:#da4500;
+a:hover {
+  color: #da4500;
 }
 
 * {
   box-sizing: border-box;
-     list-style: none;
+  list-style: none;
   font-family: ‘SUIT’, sans-serif;
   font-family: ‘SUIT Variable’, sans-serif;
 }
 
-@font-face {
-  font-family: "timmer";
-  src: url("/fonts/timmer.ttf") format("truetype");
-}
+/* @font-face {
+  font-family: 'timmer';
+  src: url('/fonts/timmer.ttf') format('truetype');
+} */

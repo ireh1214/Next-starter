@@ -10,11 +10,6 @@ body {
   background-size: contain;
 }
 
-// 모바일 안보이게 하기
-.homeMobileWrap {
-  display: none;
-}
-
 // header
 header {
   width: 100%;
@@ -24,6 +19,22 @@ header {
   z-index: 1000;
   top: 0;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.11), 0 3px 15px rgba(0, 0, 0, 0.11);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  min-width: 300px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  margin: 200px auto;
+  text-align: center;
 }
 
 .small {
